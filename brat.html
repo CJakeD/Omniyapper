@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Brat</title>
+  <link rel="icon" href="Images\albumicons\Brat Album Cover.jpg">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='yappr.css'>
+</head>
+
+<body>
+  <div class="header1">
+    <img src="Images\main\yappr_logo.png" class="logo">
+    <a href="yappr.html"><button class="Login">Go back</button></a>
+  </div>
+  
+  <div class="awrapper">
+    <div class="cover">
+      <img src="Images\albumicons\Brat Album Cover.jpg" class="acover">
+    </div>
+    <div class="aheader">
+        <h1>Brat (Charli XCX)</h1>
+        <br>
+        <p class="desc">Brat is the sixth studio album by English singer Charli XCX, released through Atlantic Records on 7 June 2024. It features production by Charli XCX, her longtime executive producer A. G. Cook, Finn Keane, Cirkut, her partner George Daniel, and others. The album draws influence from the 2000s English rave music scene, with a more aggressive club sound than her previous album, Crash (2022). A deluxe edition with three additional tracks was released on 10 June 2024.</p>
+    </div>
+
+    <div class="player">
+      <audio id="audio-player"></audio>
+  
+      <!-- Playlist -->
+      <ul id="playlist">
+        <li data-src="Music\Brat\360.mp3">360</li>
+        <li data-src="Music\Brat\365.mp3">365</li>
+        <li data-src="Music\Brat\Apple.mp3">Apple</li>
+        <li data-src="Music\Brat\Girl, so confusing.mp3">Girl, so confusing</li>
+      </ul>
+  
+      <!-- Controls -->
+      <div class="controls">
+        <button id="back-btn">⏮️ Back</button>
+        <button id="play-btn">▶️ Play</button>
+        <button id="forward-btn">⏭️ Forward</button>
+      </div>
+  
+    </div>
+
+  </div>
+
+  <script src="yappr.js"></script>
+
+</body>
+
+</html>

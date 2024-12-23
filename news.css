@@ -1,0 +1,202 @@
+.header {
+  border: none;
+  width: 100%;
+  height: 6vw;
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: rgb(200, 50, 50);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hb{
+  color: #ffffff;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 1vw;
+  left: 28vw;
+  z-index: -20;
+}
+
+.logo{
+  position: absolute;
+  width: 12vw;
+  height: auto;
+  z-index: 9999;
+  left: 2vw;
+  border-radius: 5px;
+}
+
+.headbutt{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  align-content: center;
+}
+
+.headbutt:hover{
+  text-decoration: underline;
+}
+
+.start{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: -2vw;
+}
+
+.search-bar {
+  position: absolute;
+  right: 20px; /* Position the search bar at the right corner */
+  top: 50%; /* Center it vertically */
+  transform: translateY(-50%); /* Adjust vertical position */
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  width: 15vw;
+  height: 3.5vw;
+  background-color: rgb(33, 21, 62);
+  color: #ffffff;
+  margin-left: 1vw;
+  font-size: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar::placeholder {
+  color: #ffffff;
+  font-size: 1vw;
+  padding-left: 1vw;
+}
+
+.search-icon {
+  position: absolute;
+  right: 33px; /* Adjust based on input padding */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff; /* Change icon color */
+  pointer-events: none; /* Prevent clicking on the icon */
+}
+
+.news {
+  margin-top: 8.5vw;
+  margin-left: 3vw;
+  font-size: 2.5vw;
+  color: rgb(200, 50, 50);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headline{
+  font-size: 3.5vw;
+  margin-top: -1vw;
+  margin-left: 3vw;
+  padding-right: 5vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.st{
+  font-size: 1.5vw;
+  margin-left: 3vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.st1{
+  font-size: 1.5vw;
+  margin-left: 3vw;
+  color: rgb(69, 69, 69);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.iconcont{
+  border: none;
+  height: 3vw;
+  width: 30vw;
+  position: relative;
+  top: -4vw;
+  left: 78vw;
+}
+
+.icons{
+  padding-left: 1vw;
+  width: 2vw;
+  height: auto;
+  top: 50%;
+}
+
+.pic{
+  margin-left: 9vw;
+  margin-right: 30vw;
+  width: 80vw;
+  height: auto;
+}
+
+.caption{
+  margin-left: 9vw;
+  margin-right: 30vw;
+  color: rgb(69, 69, 69);
+  font-size: 1vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.meat{
+  margin-left: 9vw;
+  margin-right: 10vw;
+  font-size: 1.25vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.food{
+  margin-left: 7vw;
+  margin-right: 30vw;
+  font-size: 3vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
+}
+
+.lgin{
+  height: 2.8vw;
+  width: 7vw;
+  font-size: 1vw;
+  background-color: rgb(33, 21, 62);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-family: "Lato", sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  transition: background-color 0.1s ease, transform 0.1s ease;
+  text-align: center;
+  line-height: 2.8vw;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.lgin:hover{
+  background-color: rgb(27, 19, 47);
+  transform: scale(1.05);
+}

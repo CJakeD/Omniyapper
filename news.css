@@ -200,3 +200,50 @@ a{
   background-color: rgb(27, 19, 47);
   transform: scale(1.05);
 }
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vw;
+  padding-top: 0.7vw;
+  left: 68vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+[title~="foodyy"] {
+  border: 5px solid rgb(200, 50, 50);
+}
+
+.gc{
+  width: 20vw;
+  height: auto;
+  margin-left: 8.5vw;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gc:hover{
+  transform: scale(1.05);
+}

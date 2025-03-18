@@ -22,6 +22,17 @@ html, body{
   z-index: 999;
 }
 
+.headerish{
+  border: 1px solid;
+  height: 5vw;
+  width: 100vw;
+  background-image: linear-gradient(to right, rgb(200, 50, 50), rgb(217, 137, 188));
+  position: fixed;
+  display: flex;
+  align-items: center; 
+  z-index: 999;
+}
+
 .logo{
   height: 3vw;
   border-radius: 2px;
@@ -69,6 +80,8 @@ html, body{
 .sidebar a:hover {
   transform: scale(1.1);
   background-color: #b79c9c;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /*Greetings*/
